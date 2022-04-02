@@ -30,8 +30,8 @@ class ViewController: UIViewController {
         orangeLabel.layer.cornerRadius = orangeLabel.frame.width / 2
         greenLabel.layer.cornerRadius = greenLabel.frame.width / 2
         
-        
-
+        blueButton.setTitle("Next", for: .highlighted)
+        blueButton.layer.cornerRadius = blueButton.frame.height / 2
         
     }
     @IBAction func blueButtonPressed() {
